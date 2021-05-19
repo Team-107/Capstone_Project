@@ -31,3 +31,6 @@ env*
 
 # Data
 data
+
+#Jupyter Notebook Support files
+.ipynb_checkpoints
