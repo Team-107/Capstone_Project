@@ -1,0 +1,672 @@
+variable,data_type,description,disposition,topic,subtopic,record_level
+EOWN_ANN,Numeric,Owned any annuities as of the last day of the reference period.,0,Assets,Annuities and Trusts,Person
+EOWN_ANNEQ,Numeric,Whether respondent owned any equity in annuities.,2,Assets,Annuities and Trusts,Person
+EOWN_TR,Numeric,Owned any trusts as of the last day of the reference period.,0,Assets,Annuities and Trusts,Person
+EOWN_TREQ,Numeric,Whether respondent owned any equity in trusts.,2,Assets,Annuities and Trusts,Person
+TANNINC,Numeric,Amount of income received from annuities during the reference period.,2,Assets,Annuities and Trusts,Person
+TANNINC_MED,Numeric,Median of topcoded values for TANNINC,0,Assets,Annuities and Trusts,Person
+TANNINC_STD,Numeric,Standard deviation of topcoded values for TANNINC,0,Assets,Annuities and Trusts,Person
+TANNVAL,Numeric,Value of equity in annuities as of the last day of the reference period.,2,Assets,Annuities and Trusts,Person
+TANNVAL_MED,Numeric,Median of topcoded values for TANNVAL,0,Assets,Annuities and Trusts,Person
+TANNVAL_STD,Numeric,Standard deviation of topcoded values for TANNVAL,0,Assets,Annuities and Trusts,Person
+TTRINC,Numeric,Amount of income received from trusts during the reference period.,2,Assets,Annuities and Trusts,Person
+TTRINC_MED,Numeric,Median of topcoded values for TTRINC,0,Assets,Annuities and Trusts,Person
+TTRINC_STD,Numeric,Standard deviation of topcoded values for TTRINC,0,Assets,Annuities and Trusts,Person
+TTRVAL,Numeric,Value of equity in trusts as of the last day of the reference period.,2,Assets,Annuities and Trusts,Person
+TTRVAL_MED,Numeric,Median of topcoded values for TTRVAL,0,Assets,Annuities and Trusts,Person
+TTRVAL_STD,Numeric,Standard deviation of topcoded values for TTRVAL,0,Assets,Annuities and Trusts,Person
+EOWN_ANNTR,Numeric,Owned any annuities or trusts during the reference period.,1,Assets,Asset Type,Person
+EOWN_BSI,Numeric,"Owned any businesses as an investment only during the reference period [such as investments in a non-corporate business venture managed by others (e.g., a limited partnership) or investments in a corporation, in which he/she has a passive financial interest].",1,Assets,Asset Type,Person
+EOWN_CD,Numeric,Owned any certificates of deposit during the reference period.,1,Assets,Asset Type,Person
+EOWN_CHK,Numeric,Owned any checking accounts during the reference period.,1,Assets,Asset Type,Person
+EOWN_GOVS,Numeric,"Owned any government securities during the reference period [such as savings bonds, T-Bills, T-Bonds, T-Notes, and government sponsored enterprise (GSE) credit instruments such as Fannie Mae].",1,Assets,Asset Type,Person
+EOWN_IRAKEO,Numeric,Owned any IRA or KEOGH accounts during the reference period.,1,Assets,Asset Type,Person
+EOWN_LIFE,Numeric,Owned any life insurance policies during the reference period.,1,Assets,Asset Type,Person
+EOWN_MCBD,Numeric,Owned any municipal or corporate bonds during the reference period.,1,Assets,Asset Type,Person
+EOWN_MF,Numeric,"Owned any mutual funds during the reference period [such as stock funds, bond funds, and similar long-term assets].",1,Assets,Asset Type,Person
+EOWN_MM,Numeric,Owned any money market deposit accounts or money market funds during the reference period.,1,Assets,Asset Type,Person
+EOWN_OINV,Numeric,"Owned any other financial investments during the reference period [such as coins, collectibles, jewelry, artwork, mortgages paid to him/her, other loans owed to him/her, and royalties].",1,Assets,Asset Type,Person
+EOWN_PENSION,Numeric,Participated in a defined-benefit pension or cash balance plan during the reference period.,2,Assets,Asset Type,Person
+EOWN_RE,Numeric,Owned any other real estate during the reference period [such as vacation homes and undeveloped lots].,1,Assets,Asset Type,Person
+EOWN_RP,Numeric,"Owned any rental properties during the reference period [such as residential, commercial, industrial, or land rental properties or equipment that is rented out (e.g., tractors and computers)].",1,Assets,Asset Type,Person
+EOWN_SAV,Numeric,Owned any savings accounts during the reference period.,1,Assets,Asset Type,Person
+EOWN_ST,Numeric,Owned any stocks during the reference period [excluding stock-options].,1,Assets,Asset Type,Person
+EOWN_THR401,Numeric,"Owned any 401k, 403b, 503b, or Thrift Savings Plan accounts during the reference period.",1,Assets,Asset Type,Person
+ERET_LUMPSUM,Numeric,Receipt of any lump sum or regular distribution payments from a retirement plan.,2,Assets,Asset Type,Person
+EASTRECUSE,Numeric,Respondent used financial records to answer asset questions.,1,Assets,Assets,Person
+TBSIDT_MED,Numeric,Median of topcoded values for TBSI(1-3)DEBTVAL,0,Assets,Assets,Person
+TBSIDT_STD,Numeric,Standard deviation of topcoded values for TBSI(1-3)DEBTVAL,0,Assets,Assets,Person
+TBSIVL_MED,Numeric,Median of topcoded values for TBSI(1-3)VAL,0,Assets,Assets,Person
+TBSIVL_STD,Numeric,Standard deviation of topcoded values for TBSI(1-3)VAL,0,Assets,Assets,Person
+TBSJDT_MED,Numeric,Median of topcoded values for TBSJ(1-7)DEBTVAL,0,Assets,Assets,Person
+TBSJDT_STD,Numeric,Standard deviation of topcoded values for TBSJ(1-7)DEBTVAL,0,Assets,Assets,Person
+TBSJVL_MED,Numeric,Median of topcoded values for TBSJ(1-7)VAL,0,Assets,Assets,Person
+TBSJVL_STD,Numeric,Standard deviation of topcoded values for TBSJ(1-7)VAL,0,Assets,Assets,Person
+TESAV_MED,Numeric,Median of topcoded values for TESAV(1-3)VAL,0,Assets,Assets,Household
+TESAV_STD,Numeric,Standard deviation of topcoded values for TESAV(1-3)VAL,0,Assets,Assets,Household
+TIRAKEOVAL,Numeric,Value of IRA and KEOGH accounts as of the last day of the reference period.,2,Assets,Assets,Person
+TIRAKEO_MED,Numeric,Median of topcoded values for TIRAKEOVAL,0,Assets,Assets,Person
+TIRAKEO_STD,Numeric,Standard deviation of topcoded values for TIRAKEOVAL,0,Assets,Assets,Person
+TJOBDNC_MED,Numeric,Median of topcoded values for TJOMCBDINC,0,Assets,Assets,Person
+TJOBDNC_STD,Numeric,Standard deviation of topcoded values for TJOMCBDINC,0,Assets,Assets,Person
+TJOBDVL_MED,Numeric,Median of topcoded values for TJOMCBDVAL,0,Assets,Assets,Person
+TJOBDVL_STD,Numeric,Standard deviation of topcoded values for TJOMCBDVAL,0,Assets,Assets,Person
+TJOCDINC,Numeric,Share of total interest income earned over the reference period from jointly-owned certificates of deposit [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOCDNC_MED,Numeric,Median of topcoded values for TJOCDINC,0,Assets,Assets,Person
+TJOCDNC_STD,Numeric,Standard deviation of topcoded values for TJOCDINC,0,Assets,Assets,Person
+TJOCDVAL,Numeric,Share of value of jointly-owned certificates of deposit (CDs) as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOCDVL_MED,Numeric,Median of topcoded values for TJOCDVAL,0,Assets,Assets,Person
+TJOCDVL_STD,Numeric,Standard deviation of topcoded values for TJOCDVAL,0,Assets,Assets,Person
+TJOCHKINC,Numeric,Share of total interest income earned over the reference period from jointly-owned checking accounts [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOCHKVAL,Numeric,Share of value of jointly-owned checking accounts as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOCKINC_MED,Numeric,Median of topcoded values for TJOCHKINC (by demographic group),0,Assets,Assets,Person
+TJOCKINC_STD,Numeric,Standard deviation of topcoded values for TJOCHKINC (by demographic group),0,Assets,Assets,Person
+TJOCKVL_MED,Numeric,Median of topcoded values for TJOCHKVAL,0,Assets,Assets,Person
+TJOCKVL_STD,Numeric,Standard deviation of topcoded values for TJOCHKVAL,0,Assets,Assets,Person
+TJOGOVSINC,Numeric,Share of total interest income earned over the reference period from jointly-owned government securities [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOGOVSVAL,Numeric,Share of value of jointly-owned government securities as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOGVNC_MED,Numeric,Median of topcoded values for TJOGOVSINC,0,Assets,Assets,Person
+TJOGVNC_STD,Numeric,Standard deviation of topcoded values for TJOGOVSINC,0,Assets,Assets,Person
+TJOGVVL_MED,Numeric,Median of topcoded values for TJOGOVSVAL,0,Assets,Assets,Person
+TJOGVVL_STD,Numeric,Standard deviation of topcoded values for TJOGOVSVAL,0,Assets,Assets,Person
+TJOMCBDINC,Numeric,Share of total interest income earned over the reference period from jointly-owned municipal and corporate bonds [for respondents without a spouse or civil union partner in the household].,2,Assets,Assets,Person
+TJOMCBDVAL,Numeric,Share of value of jointly-owned municipal and corporate bonds as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOMMINC,Numeric,Share of total interest income earned over the reference period from jointly-owned money market deposit accounts and money market funds [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOMMNC_MED,Numeric,Median of topcoded values for TJOMMINC,0,Assets,Assets,Person
+TJOMMNC_STD,Numeric,Standard deviation of topcoded values for TJOMMINC,0,Assets,Assets,Person
+TJOMMVAL,Numeric,Share of value of jointly-owned money market deposit accounts and money market funds as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOMMVL_MED,Numeric,Median of topcoded values for TJOMMVAL,0,Assets,Assets,Person
+TJOMMVL_STD,Numeric,Standard deviation of topcoded values for TJOMMVAL,0,Assets,Assets,Person
+TJOREDEBTVAL,Numeric,Share of debt against jointly-owned other real estate as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOREDT_MED,Numeric,Median of topcoded values for TJOREDEBTVAL,0,Assets,Assets,Person
+TJOREDT_STD,Numeric,Standard deviation of topcoded values for TJOREDEBTVAL,0,Assets,Assets,Person
+TJOREVAL,Numeric,Share of value of jointly-owned other real estate as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOREVL_MED,Numeric,Median of topcoded values for TJOREVAL,0,Assets,Assets,Person
+TJOREVL_STD,Numeric,Standard deviation of topcoded values for TJOREVAL,0,Assets,Assets,Person
+TJOSAVINC,Numeric,Share of total interest income earned over the reference period from jointly-owned savings accounts [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOSAVVAL,Numeric,Share of value of jointly-owned savings accounts as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Assets,Person
+TJOSVNC_MED,Numeric,Median of topcoded values for TJOSAVINC,0,Assets,Assets,Person
+TJOSVNC_STD,Numeric,Standard deviation of topcoded values for TJOSAVINC,0,Assets,Assets,Person
+TJOSVVL_MED,Numeric,Median of topcoded values for TJOSAVVAL,0,Assets,Assets,Person
+TJOSVVL_STD,Numeric,Standard deviation of topcoded values for TJOSAVVAL,0,Assets,Assets,Person
+TJSBDNC_MED,Numeric,Median of topcoded values for TJSMCBDINC,0,Assets,Assets,Person
+TJSBDNC_STD,Numeric,Standard deviation of topcoded values for TJSMCBDINC,0,Assets,Assets,Person
+TJSBDVL_MED,Numeric,Median of topcoded values for TJSMCBDVAL,0,Assets,Assets,Person
+TJSBDVL_STD,Numeric,Standard deviation of topcoded values for TJSMCBDVAL,0,Assets,Assets,Person
+TJSCDINC,Numeric,"Share of total interest income earned over the reference period from jointly-owned certificates of deposit [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse/partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSCDNC_MED,Numeric,Median of topcoded values for TJSCDINC,0,Assets,Assets,Person
+TJSCDNC_STD,Numeric,Standard deviation of topcoded values for TJSCDINC,0,Assets,Assets,Person
+TJSCDVAL,Numeric,"Share of value of jointly-owned certificates of deposit (CDs) as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSCDVL_MED,Numeric,Median of topcoded values for TJSCDVAL,0,Assets,Assets,Person
+TJSCDVL_STD,Numeric,Standard deviation of topcoded values for TJSCDVAL,0,Assets,Assets,Person
+TJSCHKINC,Numeric,"Share of total interest income earned over the reference period from jointly-owned checking accounts [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse/partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSCHKVAL,Numeric,"Share of value of jointly-owned checking accounts as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSCKINC_MED,Numeric,Median of topcoded values for TJSCHKINC (by demographic group),0,Assets,Assets,Person
+TJSCKINC_STD,Numeric,Standard deviation of topcoded values for TJSCHKINC (by demographic group),0,Assets,Assets,Person
+TJSCKVL_MED,Numeric,Median of topcoded values for TJSCHKVAL,0,Assets,Assets,Person
+TJSCKVL_STD,Numeric,Standard deviation of topcoded values for TJSCHKVAL,0,Assets,Assets,Person
+TJSGOVSINC,Numeric,"Share of total interest income earned over the reference period from jointly-owned government securities [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse/partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSGOVSVAL,Numeric,"Share of value of jointly-owned government securities as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSGVNC_MED,Numeric,Median of topcoded values for TJSGOVSINC,0,Assets,Assets,Person
+TJSGVNC_STD,Numeric,Standard deviation of topcoded values for TJSGOVSINC,0,Assets,Assets,Person
+TJSGVVL_MED,Numeric,Median of topcoded values for TJSGOVSVAL,0,Assets,Assets,Person
+TJSGVVL_STD,Numeric,Standard deviation of topcoded values for TJSGOVSVAL,0,Assets,Assets,Person
+TJSMCBDINC,Numeric,"Share of total interest income earned over the reference period from jointly-owned municipal and corporate bonds [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse/partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSMCBDVAL,Numeric,"Share of value of jointly-owned municipal and corporate bonds as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSMMINC,Numeric,"Share of total interest income earned over the reference period from jointly-owned money market deposit accounts and money market funds [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse/partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSMMNC_MED,Numeric,Median of topcoded values for TJSMMINC,0,Assets,Assets,Person
+TJSMMNC_STD,Numeric,Standard deviation of topcoded values for TJSMMINC,0,Assets,Assets,Person
+TJSMMVAL,Numeric,"Share of value of jointly-owned money market deposit accounts and money market funds as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSMMVL_MED,Numeric,Median of topcoded values for TJSMMVAL,0,Assets,Assets,Person
+TJSMMVL_STD,Numeric,Standard deviation of topcoded values for TJSMMVAL,0,Assets,Assets,Person
+TJSREDEBTVAL,Numeric,"Share of debt against jointly-owned other real estate as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSREDT_MED,Numeric,Median of topcoded values for TJSREDEBTVAL,0,Assets,Assets,Person
+TJSREDT_STD,Numeric,Standard deviation of topcoded values for TJSREDEBTVAL,0,Assets,Assets,Person
+TJSREVAL,Numeric,"Share of value of jointly-owned other real estate as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSREVL_MED,Numeric,Median of topcoded values for TJSREVAL,0,Assets,Assets,Person
+TJSREVL_STD,Numeric,Standard deviation of topcoded values for TJSREVAL,0,Assets,Assets,Person
+TJSSAVINC,Numeric,"Share of total interest income earned over the reference period from jointly-owned savings accounts [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse/partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSSAVVAL,Numeric,"Share of value of jointly-owned savings accounts as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Assets,Person
+TJSSVNC_MED,Numeric,Median of topcoded values for TJSSAVINC,0,Assets,Assets,Person
+TJSSVNC_STD,Numeric,Standard deviation of topcoded values for TJSSAVINC,0,Assets,Assets,Person
+TJSSVVL_MED,Numeric,Median of topcoded values for TJSSAVVAL,0,Assets,Assets,Person
+TJSSVVL_STD,Numeric,Standard deviation of topcoded values for TJSSAVVAL,0,Assets,Assets,Person
+TOBDNC_MED,Numeric,Median of topcoded values for TOMCBDINC,0,Assets,Assets,Person
+TOBDNC_STD,Numeric,Standard deviation of topcoded values for TOMCBDINC,0,Assets,Assets,Person
+TOBDVL_MED,Numeric,Median of topcoded values for TOMCBDVAL,0,Assets,Assets,Person
+TOBDVL_STD,Numeric,Standard deviation of topcoded values for TOMCBDVAL,0,Assets,Assets,Person
+TOCDINC,Numeric,Total interest income earned over the reference period from individually-owned certificates of deposit [for all respondents].,2,Assets,Assets,Person
+TOCDNC_MED,Numeric,Median of topcoded values for TOCDINC,0,Assets,Assets,Person
+TOCDNC_STD,Numeric,Standard deviation of topcoded values for TOCDINC,0,Assets,Assets,Person
+TOCDVAL,Numeric,Value of individually-owned certificates of deposits (CDs) as of the last day of the reference period.,2,Assets,Assets,Person
+TOCDVL_MED,Numeric,Median of topcoded values for TOCDVAL,0,Assets,Assets,Person
+TOCDVL_STD,Numeric,Standard deviation of topcoded values for TOCDVAL,0,Assets,Assets,Person
+TOCHKINC,Numeric,Total interest income earned over the reference period from individually-owned checking accounts.,1,Assets,Assets,Person
+TOCHKVAL,Numeric,Value of individually-owned checking accounts as of the last day of the reference period.,1,Assets,Assets,Person
+TOCKINC_MED,Numeric,Median of topcoded values for TOCHKINC (by demographic group),0,Assets,Assets,Person
+TOCKINC_STD,Numeric,Standard deviation of topcoded values for TOCHKINC (by demographic group),0,Assets,Assets,Person
+TOCKVL_MED,Numeric,Median of topcoded values for TOCHKVAL (by demographic group),0,Assets,Assets,Person
+TOCKVL_STD,Numeric,Standard deviation of topcoded values for TOCHKVAL (by demographic group),0,Assets,Assets,Person
+TOGOVSINC,Numeric,Total interest income earned over the reference period from individually-owned government securities.,2,Assets,Assets,Person
+TOGOVSVAL,Numeric,Value of individually-owned government securities as of the last day of the reference period.,1,Assets,Assets,Person
+TOGVNC_MED,Numeric,Median of topcoded values for TOGOVSINC,0,Assets,Assets,Person
+TOGVNC_STD,Numeric,Standard deviation of topcoded values for TOGOVSINC,0,Assets,Assets,Person
+TOGVVL_MED,Numeric,Median of topcoded values for TOGOVSVAL,0,Assets,Assets,Person
+TOGVVL_STD,Numeric,Standard deviation of topcoded values for TOGOVSVAL,0,Assets,Assets,Person
+TOINVINC,Numeric,Amount of income received over the reference period from other financial investments.,1,Assets,Assets,Person
+TOINVVAL,Numeric,Total balance or market value of other financial investments as of the last day of the reference period.,1,Assets,Assets,Person
+TOINVVL_MED,Numeric,Median of topcoded values for TOINVVAL,0,Assets,Assets,Person
+TOINVVL_STD,Numeric,Standard deviation of topcoded values for TOINVVAL,0,Assets,Assets,Person
+TOINV_BMED,Numeric,Median of bottomcoded values for TOINVINC,0,Assets,Assets,Person
+TOINV_BSTD,Numeric,Standard deviation of bottomcoded values for TOINVINC,0,Assets,Assets,Person
+TOINV_TMED,Numeric,Median of topcoded values for TOINVINC,0,Assets,Assets,Person
+TOINV_TSTD,Numeric,Standard deviation of topcoded values for TOINVINC,0,Assets,Assets,Person
+TOMCBDINC,Numeric,Total interest income earned over the reference period from individually-owned municipal and corporate bonds.,2,Assets,Assets,Person
+TOMCBDVAL,Numeric,Value of individually-owned municipal and corporate bonds as of the last day of the reference period.,2,Assets,Assets,Person
+TOMMINC,Numeric,Total interest income earned over the reference period from individually-owned money market deposit accounts and money market funds.,1,Assets,Assets,Person
+TOMMNC_MED,Numeric,Median of topcoded values for TOMMINC,0,Assets,Assets,Person
+TOMMNC_STD,Numeric,Standard deviation of topcoded values for TOMMINC,0,Assets,Assets,Person
+TOMMVAL,Numeric,Value of individually-owned money market deposit accounts and money market funds as of the last day of the reference period.,1,Assets,Assets,Person
+TOMMVL_MED,Numeric,Median of topcoded values for TOMMVAL,0,Assets,Assets,Person
+TOMMVL_STD,Numeric,Standard deviation of topcoded values for TOMMVAL,0,Assets,Assets,Person
+TOREDEBTVAL,Numeric,Total debt against other real estate owned in own name as of the last day of the reference period.,2,Assets,Assets,Person
+TOREDT_MED,Numeric,Median of topcoded values for TOREDEBTVAL,0,Assets,Assets,Person
+TOREDT_STD,Numeric,Standard deviation of topcoded values for TOREDEBTVAL,0,Assets,Assets,Person
+TOREVAL,Numeric,Value of other real estate owned in own name as of the last day of the reference period.,1,Assets,Assets,Person
+TOREVL_MED,Numeric,Median of topcoded values for TOREVAL,0,Assets,Assets,Person
+TOREVL_STD,Numeric,Standard deviation of topcoded values for TOREVAL,0,Assets,Assets,Person
+TOSAVINC,Numeric,Total interest income earned over the reference period from individually-owned savings accounts.,2,Assets,Assets,Person
+TOSAVVAL,Numeric,Value of individually-owned savings accounts as of the last day of the reference period.,1,Assets,Assets,Person
+TOSVNC_MED,Numeric,Median of topcoded values for TOSAVINC (by demographic group),0,Assets,Assets,Person
+TOSVNC_STD,Numeric,Standard deviation of topcoded values for TOSAVINC (by demographic group),0,Assets,Assets,Person
+TOSVVL_MED,Numeric,Median of topcoded values for TOSAVVAL (by demographic group),0,Assets,Assets,Person
+TOSVVL_STD,Numeric,Standard deviation of topcoded values for TOSAVVAL (by demographic group),0,Assets,Assets,Person
+TTH401_MED,Numeric,Median of topcoded values for TTHR401VAL (by demographic group),0,Assets,Assets,Person
+TTH401_STD,Numeric,Standard deviation of topcoded values for TTHR401VAL (by demographic group),0,Assets,Assets,Person
+TTHR401VAL,Numeric,"Value of 401k, 403b, 503b, and Thrift Savings Plan accounts as of the last day of the reference period.",1,Assets,Assets,Person
+TVEHDT_MED,Numeric,Median of topcoded values for TVEH(1-3)DEBTVAL (by demographic group),0,Assets,Assets,Household
+TVEHDT_STD,Numeric,Standard deviation of topcoded values for TVEH(1-3)DEBTVAL (by demographic group),0,Assets,Assets,Household
+TVEHVL_MED,Numeric,Median of topcoded values for TVEH(1-3)VAL (by demographic group),0,Assets,Assets,Household
+TVEHVL_STD,Numeric,Standard deviation of topcoded values for TVEH(1-3)VAL (by demographic group),0,Assets,Assets,Household
+TDEBT_AST,Numeric,"Person-level sum of all debt (TDEBT_SEC, TDEBT_USEC).",1,Assets,Assets Recodes,Person
+TDEBT_BUS,Numeric,Person-level sum of debt against businesses in which the person owns a share (TBSI(i)PEROWN/100*TBSI(i)DEBT (for i=1 to 3) + TBSJ(j)PEROWN/100*TBSJ(j)DEBT (for j=1 to 7) ).,1,Assets,Assets Recodes,Person
+TDEBT_HOME,Numeric,"Person-level sum of debt against primary residence (sum of either TPRLOAN(i)AMT or TMHLOAN(i)AMT for i=1,2,3) in which the person is an owner of the residence. The home's debt is divided equally among its total number of owners.",1,Assets,Assets Recodes,Person
+TDEBT_RE,Numeric,"Person-level sum of debt against other real estate (TJSREDEBTVAL, TJOREDEBTVAL, TOREDEBTVAL).",2,Assets,Assets Recodes,Person
+TDEBT_RENT,Numeric,"Person-level sum of debt against rental properties (TJSRPDEBTVAL, TJORPDEBTVAL, TORPDEBTVAL).",2,Assets,Assets Recodes,Person
+TDEBT_SEC,Numeric,"Person-level sum of all secured debt (TDEBT_HOME, TDEBT_VEH, TDEBT_RENT, TDEBT_RE, TDEBT_BUS).",1,Assets,Assets Recodes,Person
+TDEBT_USEC,Numeric,"Person-level sum of value of amount owed on all unsecured debt (TDEBT_CC, TDEBT_ED, TDEBT_OT, TMED_AMT)",1,Assets,Assets Recodes,Person
+TDEBT_VEH,Numeric,"Person-level sum of debt against all vehicles in which the person owns a share (as indicated by the variables EVEH(i)OWNER(j) for i=1,2,3 and j=1,2,3 and E(AST)OWNER(j) for AST=MCYC, BOAT, RV, OREC and j=1,2,3). Each vehicle's debt value (TVEH(i)DEBTVAL for i=1,2,3 and T(AST)DEBTVAL for AST=MCYC, BOAT, RV, OREC) is divided equally among its total number of owners.",2,Assets,Assets Recodes,Person
+TEQ_BUS,Numeric,"Person-level sum of equity in businesses (TVAL_BUS, -TDEBT_BUS).",1,Assets,Assets Recodes,Person
+TEQ_HOME,Numeric,Person-level sum of equity in primary residence (TVAL_HOME -TDEBT_HOME),1,Assets,Assets Recodes,Person
+TEQ_RE,Numeric,"Person-level sum of equity in other real estate (TVAL_RE, -TDEBT_RE).",1,Assets,Assets Recodes,Person
+TEQ_RENT,Numeric,"Person-level sum of equity in rental properties (TVAL_RENT, -TDEBT_RENT).",1,Assets,Assets Recodes,Person
+TEQ_VEH,Numeric,"Person-level sum of equity in vehicles (TVAL_VEH, -TDEBT_VEH).",1,Assets,Assets Recodes,Person
+THDEBT_AST,Numeric,"Household-level sum of all debt (TDEBT_AST) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THDEBT_BUS,Numeric,"Household-level sum of debt against businesses (TDEBT_BUS) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THDEBT_CC,Numeric,"Household-level sum of amount owed on credit card debt and store bills (TDEBT_CC) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THDEBT_ED,Numeric,"Household-level sum of amount owed on student loans and educational expenses (TDEBT_ED) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THDEBT_HOME,Numeric,"Household-level sum of debt against primary residence (TDEBT_HOME) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THDEBT_OT,Numeric,"Household-level sum of amount owed on other debt (TDEBT_OT) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THDEBT_RE,Numeric,"Household-level sum of debt against other real estate (TDEBT_RE) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THDEBT_RENT,Numeric,"Household-level sum of debt against rental properties (TDEBT_RENT) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THDEBT_SEC,Numeric,"Household-level sum of all secured debt (TDEBT_SEC) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THDEBT_USEC,Numeric,"Household-level sum of value of amount owed on all unsecured debt (TDEBT_USEC) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THDEBT_VEH,Numeric,"Household-level sum of debt against all vehicles (TDEBT_VEH) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THEQ_BUS,Numeric,"Household-level sum of equity in businesses (REQ_BUS) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THEQ_HOME,Numeric,"Household-level sum of equity in primary residence (TEQ_HOME) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THEQ_RE,Numeric,"Household-level sum of equity in other real estate (TEQ_RE) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THEQ_RENT,Numeric,"Household-level sum of equity in rental properties (TEQ_RENT) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THEQ_VEH,Numeric,"Household-level sum of equity in vehicles (TEQ_VEH) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THINC_AST,Numeric,"Household-level sum of income earned over the reference period from all assets (TINC_AST) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THINC_BANK,Numeric,"Household-level sum of income earned over the reference period from interest-earning assets held at financial institutions (TINC_BANK) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THINC_BOND,Numeric,"Household-level sum of income earned over the reference period from other interest-earning assets (TINC_BOND) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THINC_OTH,Numeric,"Household-level sum of income earned over the reference period from other assets (TINC_OTH) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THINC_RENT,Numeric,"Household-level sum of net income from rental properties (TINC_RENT) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THINC_STMF,Numeric,"Household-level sum of income earned over the reference period from stocks and mutual funds (TINC_STMF) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THNETWORTH,Numeric,"Household-level net worth [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_AST,Numeric,"Household-level sum of all asset values (TVAL_AST) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_BANK,Numeric,"Household-level sum of value of assets held at financial institutions (TVAL_BANK) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_BOND,Numeric,"Household-level sum of value of other interest-earning assets (TVAL_BOND) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_BUS,Numeric,"Household-level sum of value of businesses (TVAL_BUS) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_ESAV,Numeric,"Household-level sum of value of educational savings accounts (TVAL_ESAV) in which a household member is the owner (as indicated by the variables EESAV(i)OWNER for i=1,2,3) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_HOME,Numeric,"Household-level sum of value of primary residence (TVAL_HOME) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_OTH,Numeric,"Household-level sum of value of other assets (TVAL_OTH) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_RE,Numeric,"Household-level sum of value of other real estate (TVAL_RE) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_RENT,Numeric,"Household-level sum of value of rental properties (TVAL_RENT) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_RET,Numeric,"Household-level sum of value of retirement accounts (TVAL_RET) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_RMU,Numeric,"Household-level sum of rent, mortgage, and utility payments in December of the reference period (TVAL_RMU) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_STMF,Numeric,"Household-level sum of value of stocks and mutual funds (TVAL_STMF) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+THVAL_VEH,Numeric,"Household-level sum of value of all vehicles (TVAL_VEH) [this is household-level data, therefore this value is copied to every member of the household].",,Assets,Assets Recodes,Household
+TINC_AST,Numeric,"Person-level sum of income earned over the reference period from all assets (TINC_BANK, TINC_BOND, TINC_STMF, TINC_RENT, TINC_OTH).",1,Assets,Assets Recodes,Person
+TINC_BANK,Numeric,"Person-level sum of income earned over the reference period from interest-earning assets held at financial institutions (TJSCHKINC, TJOCHKINC, TOCHKINC, TJSSAVINC, TJOSAVINC, TOSAVINC, TJSMMINC, TJOMMINC, TOMMINC, TJSCDINC, TJOCDINC, TOCDINC).",2,Assets,Assets Recodes,Person
+TINC_BOND,Numeric,"Person-level sum of income earned over the reference period from other interest-earning assets (TJSGOVSINC, TJOGOVSINC, TOGOVSINC, TJSMCBDINC, TJOMCBDINC, TOMCBDINC).",2,Assets,Assets Recodes,Person
+TINC_OTH,Numeric,"Person-level sum of income earned over the reference period from other assets (TOINVINC, TANNINC, TTRINC).",1,Assets,Assets Recodes,Person
+TINC_RENT,Numeric,"Person-level sum of net income from rental properties (TJSRPNETINC, TJORPNETINC, TORPNETINC).",1,Assets,Assets Recodes,Person
+TINC_STMF,Numeric,"Person-level sum of income earned over the reference period from stocks and mutual funds (TJSSTINC, TJOSTINC, TOSTINC, TJSMFINC, TJOMFINC, TOMFINC).",1,Assets,Assets Recodes,Person
+TNETWORTH,Numeric,"Person-level net worth (TVAL_AST, -TDEBT_AST).",1,Assets,Assets Recodes,Person
+TVAL_AST,Numeric,"Person-level sum of all asset values (TVAL_BANK, TVAL_STMF, TVAL_BOND, TVAL_RENT, TVAL_RE, TVAL_OTH, TVAL_RET, TVAL_BUS, TVAL_HOME, TVAL_VEH, TVAL_ESAV).",1,Assets,Assets Recodes,Person
+TVAL_BANK,Numeric,"Person-level sum of value of assets held at financial institutions (TJSSAVVAL, TJOSAVVAL, TOSAVVAL, TJSMMVAL, TJOMMVAL, TOMMVAL, TJSCDVAL, TJOCDVAL, TOCDVAL, TJSCHKVAL, TJOCHKVAL, TOCHKVAL).",1,Assets,Assets Recodes,Person
+TVAL_BOND,Numeric,Person-level sum of value of other interest-earning assets (TJSGOVSVAL TJOGOVSVAL TOGOVSVAL TJSMCBDVAL TJOMCBDVAL TOMCBDVAL).,1,Assets,Assets Recodes,Person
+TVAL_BUS,Numeric,Person-level sum of value of businesses in which the person owns a share (TBSI(i)PEROWN/100*TBSI(i)VAL (for i=1 to 3) + TBSJ(j)PEROWN/100*TBSJ(j)VAL (for j=1 to 7) ).,2,Assets,Assets Recodes,Person
+TVAL_ESAV,Numeric,"Person-level sum of value of educational savings accounts (TESAV(i)VAL for i=1,2,3) in which the person is the owner (as indicated by the variables EESAV(i)OWNER for i=1,2,3).",2,Assets,Assets Recodes,Person
+TVAL_HOME,Numeric,Person-level sum of value of primary residence (either TPROPVAL or TMHVAL) in which the person is an owner of the residence. The home's value is divided equally among its total number of owners.,2,Assets,Assets Recodes,Person
+TVAL_OTH,Numeric,"Person-level sum of value of other assets (TOINVVAL, TANNVAL, TTRVAL, TLIFE_CVAL).",1,Assets,Assets Recodes,Person
+TVAL_RE,Numeric,"Person-level sum of value of other real estate (TJSREVAL, TJOREVAL, TOREVAL).",1,Assets,Assets Recodes,Person
+TVAL_RENT,Numeric,"Person-level sum of value of rental properties (TJSRPVAL, TJORPVAL, TORPVAL).",1,Assets,Assets Recodes,Person
+TVAL_RET,Numeric,"Person-level sum of value of retirement accounts (TTHR401VAL, TIRAKEOVAL).",1,Assets,Assets Recodes,Person
+TVAL_RMU,Numeric,"Person-level sum of rent, mortgage, and utility payments in December of the reference period (the value of TRMU_AMT(i) in which ERMU_PAYER(i)=PNUM for i=1,2,3).",1,Assets,Assets Recodes,Person
+TVAL_STMF,Numeric,"Person-level sum of value of stocks and mutual funds (TJSSTVAL, TJOSTVAL, TOSTVAL, TJSMFVAL, TJOMFVAL, TOMFVAL).",1,Assets,Assets Recodes,Person
+TVAL_VEH,Numeric,"Person-level sum of value of all vehicles in which the person owns a share (as indicated by the variables EVEH(i)OWNER(j) for i=1,2,3 and j=1,2,3 and E(AST)OWNER(j) for AST=MCYC, BOAT, RV, OREC and j=1,2,3). Each vehicle's value (TVEH(i)VAL for i=1,2,3 and T(AST)VAL for AST=MCYC, BOAT, RV, OREC) is divided equally among its total number of owners.",1,Assets,Assets Recodes,Person
+TBUS_INV_NUM,Numeric,Number of businesses owned as an investment only.,1,Assets,Business Value or Debt,Person
+EBSI1PEROWN,Numeric,Percentage ownership of 1st business/es owned as investment only.,0,Assets,Business Value or Debt Details,Person
+EBSI2PEROWN,Numeric,Percent ownership of second business owned as an investment only as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+EBSI3PEROWN,Numeric,Percent ownership of third business owned as an investment only as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+EBSJ1PEROWN,Numeric,Percent ownership of first business owned as a job as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+EBSJ2PEROWN,Numeric,Percent ownership of second business owned as a job as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+EBSJ3PEROWN,Numeric,Percent ownership of third business owned as a job as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+EBSJ4PEROWN,Numeric,Percent ownership of fourth business owned as a job as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+EBSJ5PEROWN,Numeric,Percent ownership of fifth business owned as a job as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+TBSI1DEBTVAL,Numeric,Amount of debt against the first business owned as an investment only as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+TBSI1VAL,Numeric,Value of first business owned as an investment only as of the last day of the reference period [not including debts against the business].,0,Assets,Business Value or Debt Details,Person
+TBSI2DEBTVAL,Numeric,Amount of debt against the second business owned as an investment only as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+TBSI2VAL,Numeric,Value of second business owned as an investment only as of the last day of the reference period [not including debts against the business].,0,Assets,Business Value or Debt Details,Person
+TBSI3DEBTVAL,Numeric,Amount of debt against the third business owned as an investment only as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+TBSI3VAL,Numeric,Value of third business owned as an investment only as of the last day of the reference period [not including debts against the business].,0,Assets,Business Value or Debt Details,Person
+TBSJ1DEBTVAL,Numeric,Amount of debt against the first business owned as job as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+TBSJ1VAL,Numeric,Value of first business owned as a job as of the last day of the reference period [not including debts against the business].,0,Assets,Business Value or Debt Details,Person
+TBSJ2DEBTVAL,Numeric,Amount of debt against the second business owned as job as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+TBSJ2VAL,Numeric,Value of second business owned as a job as of the last day of the reference period [not including debts against the business].,0,Assets,Business Value or Debt Details,Person
+TBSJ3DEBTVAL,Numeric,Amount of debt against the third business owned as job as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+TBSJ3VAL,Numeric,Value of third business owned as a job as of the last day of the reference period [not including debts against the business].,0,Assets,Business Value or Debt Details,Person
+TBSJ4DEBTVAL,Numeric,Amount of debt against the fourth business owned as job as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+TBSJ4VAL,Numeric,Value of fourth business owned as a job as of the last day of the reference period [not including debts against the business].,0,Assets,Business Value or Debt Details,Person
+TBSJ5DEBTVAL,Numeric,Amount of debt against the fifth business owned as job as of the end of the reference period.,0,Assets,Business Value or Debt Details,Person
+TBSJ5VAL,Numeric,Value of fifth business owned as a job as of the last day of the reference period [not including debts against the business].,0,Assets,Business Value or Debt Details,Person
+EVEH1DEBT,Numeric,"Whether any money was owed on the first vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Cars and Trucks,Household
+EVEH1USE,Numeric,"Whether the primary use of the first vehicle was for either: business purposes or transportation of a disabled person [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Cars and Trucks,Household
+EVEH2DEBT,Numeric,"Whether any money was owed on the second vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Cars and Trucks,Household
+EVEH2USE,Numeric,"Whether the primary use of the second vehicle was for either: business purposes or transportation of a disabled person [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Cars and Trucks,Household
+EVEH3DEBT,Numeric,"Whether any money was owed on the third vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Cars and Trucks,Household
+EVEH3USE,Numeric,"Whether the primary use of the third vehicle was for either: business purposes or transportation of a disabled person [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Cars and Trucks,Household
+TVEH1DEBTVAL,Numeric,"Amount owed on the first vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Cars and Trucks,Household
+TVEH2DEBTVAL,Numeric,"Amount owed on the second vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Cars and Trucks,Household
+TVEH3DEBTVAL,Numeric,"Amount owed on the third vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Cars and Trucks,Household
+EOWN_VEH,Numeric,"Whether any member of the household was the owner of a car, truck, or van during the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+EVEH1OWNER1,Numeric,"First owner of the first car, truck, or van as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+EVEH1OWNER2,Numeric,"Second owner of the first car, truck, or van as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+EVEH1OWNER3,Numeric,"Third owner of the first car, truck, or van as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+EVEH2OWNER1,Numeric,"First owner of the second car, truck, or van as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+EVEH2OWNER2,Numeric,"Second owner of the second car, truck, or van as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+EVEH2OWNER3,Numeric,"Third owner of the second car, truck, or van as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+EVEH3OWNER1,Numeric,"First owner of the third car, truck, or van as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+EVEH3OWNER2,Numeric,"Second owner of the third car, truck, or van as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+EVEH3OWNER3,Numeric,"Third owner of the third car, truck, or van as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+TVEH1VAL,Numeric,"Value of the first vehicle in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+TVEH1_YEAR,Numeric,Model year of the first vehicle that was reported,0,Assets,"Cars, Trucks, and Vans",Household
+TVEH2VAL,Numeric,"Value of the second vehicle in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+TVEH2_YEAR,Numeric,Model year of the second vehicle that was reported,0,Assets,"Cars, Trucks, and Vans",Household
+TVEH3VAL,Numeric,"Value of the third vehicle in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+TVEH3_YEAR,Numeric,Model year of the third vehicle that was reported,0,Assets,"Cars, Trucks, and Vans",Household
+TVEH_NUM,Numeric,"Number of cars, trucks, or vans owned by the household during the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,"Cars, Trucks, and Vans",Household
+EOCCDEBT,Numeric,Owed any money for credit cards or store bills in own name only during the reference period.,2,Assets,Credit Card Debt - Self,Person
+TOCCDEBTVAL,Numeric,Amount of credit card and store bills owed in own name only as of the last day of the reference period.,2,Assets,Credit Card Debt - Self,Person
+TOCCDT_MED,Numeric,Median of topcoded values for TOCCDEBTVAL,0,Assets,Credit Card Debt - Self,Person
+TOCCDT_STD,Numeric,Standard deviation of topcoded values for TOCCDEBTVAL,0,Assets,Credit Card Debt - Self,Person
+EOEDDEBT,Numeric,Owed any money for student loans or educational expenses in own name only during the reference period.,2,Assets,Educational Debt - Self,Person
+TOEDDEBTVAL,Numeric,Amount of student loans or educational expenses owed in own name only as of the last day of the reference period.,2,Assets,Educational Debt - Self,Person
+TOEDDT_MED,Numeric,Median of topcoded values for TOEDDEBTVAL (by demographic group),0,Assets,Educational Debt - Self,Person
+TOEDDT_STD,Numeric,Standard deviation of topcoded values for TOEDDEBTVAL (by demographic group),0,Assets,Educational Debt - Self,Person
+EESAV1BENEF,Numeric,"Beneficiary of the first educational savings account of which a household member was either the owner or beneficiary [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+EESAV1OWNER,Numeric,"Owner of the first educational savings account of which a household member was either the owner or beneficiary [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+EESAV2BENEF,Numeric,"Beneficiary of the second educational savings account of which a household member was either the owner or beneficiary [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+EESAV2OWNER,Numeric,"Owner of the second educational savings account of which a household member was either the owner or beneficiary [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+EESAV3BENEF,Numeric,"Beneficiary of the third educational savings account of which a household member was either the owner or beneficiary [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+EESAV3OWNER,Numeric,"Owner of the third educational savings account of which a household member was either the owner or beneficiary [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+EOWN_ESAV,Numeric,"Whether any member of the household was the owner or beneficiary of an educational savings account [such as 529 and Coverdell accounts; this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+TESAV1VAL,Numeric,"Value of first educational savings account of which a household member was either the owner or beneficiary [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+TESAV2VAL,Numeric,"Value of second educational savings account of which a household member was either the owner or beneficiary [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+TESAV3VAL,Numeric,"Value of third educational savings account of which a household member was either the owner or beneficiary [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+TESAV_NUM,Numeric,"Number of educational savings accounts of which a household member was either the owner or beneficiary [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Educational Savings Accounts,Household
+EJOOWNCD,Numeric,Owned any certificates of deposit jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Bank Accounts,Person
+EJOOWNCHK,Numeric,Owned any checking accounts jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Bank Accounts,Person
+EJOOWNGOVS,Numeric,Owned any government securities jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Bank Accounts,Person
+EJOOWNMCBD,Numeric,Owned any municipal or corporate bonds jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Bank Accounts,Person
+EJOOWNMM,Numeric,Owned any money market deposit accounts or money market funds jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Bank Accounts,Person
+EJOOWNSAV,Numeric,Owned any savings accounts jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Bank Accounts,Person
+EJSOWNCD,Numeric,"Owned any certificates of deposit jointly during the reference period [for respondents with a spouse or civil union partner in the household; this joint question is asked of only one spouse or partner, and this response is copied to both spouses'/partners' records].",2,Assets,Joint Bank Accounts,Person
+EJSOWNCHK,Numeric,"Owned any checking accounts jointly during the reference period [for respondents with a spouse or civil union partner in the household; this joint ownership question is asked of only one spouse or partner, and this response is copied to both spouses'/partners' records].",2,Assets,Joint Bank Accounts,Person
+EJSOWNGOVS,Numeric,"Owned any government securities jointly during the reference period [for respondents with a spouse or civil union partner in the household; this joint ownership question is asked of only one spouse or partner, and this response is copied to both spouses'/partners' records].",2,Assets,Joint Bank Accounts,Person
+EJSOWNMCBD,Numeric,"Owned any municipal or corporate bonds jointly during the reference period [for respondents with a spouse or civil union partner in the household; this joint ownership question is asked of only one spouse or partner, and this response is copied to both spouses'/partners' records].",2,Assets,Joint Bank Accounts,Person
+EJSOWNMM,Numeric,"Owned any money market deposit accounts or money market funds jointly during the reference period [for respondents with a spouse or civil union partner in the household; this joint ownership question is asked of only one spouse or partner, and this response is copied to both spouses'/partners' records].",2,Assets,Joint Bank Accounts,Person
+EJSOWNSAV,Numeric,"Owned any savings accounts jointly during the reference period [for respondents with a spouse or civil union partner in the household; this joint ownership question is asked of only one spouse or partner, and this response is copied to both spouses'/partners' records].",2,Assets,Joint Bank Accounts,Person
+EOOWNCD,Numeric,Owned any certificates of deposit individually during the reference period.,1,Assets,Joint Bank Accounts,Person
+EOOWNCHK,Numeric,Owned any checking accounts individually during the reference period.,1,Assets,Joint Bank Accounts,Person
+EOOWNGOVS,Numeric,Owned any government securities individually during the reference period.,1,Assets,Joint Bank Accounts,Person
+EOOWNMCBD,Numeric,Owned any municipal or corporate bonds individually during the reference period.,1,Assets,Joint Bank Accounts,Person
+EOOWNMM,Numeric,Owned any money market deposit accounts or money market funds individually during the reference period.,1,Assets,Joint Bank Accounts,Person
+EOOWNSAV,Numeric,Owned any savings accounts individually during the reference period.,1,Assets,Joint Bank Accounts,Person
+EJSCCDEBT,Numeric,Owed any money for credit cards or store bills jointly with a spouse or civil union partner during the reference period.,2,Assets,Joint Credit Card Debt,Person
+TJSCCDEBTVAL,Numeric,Share of credit card debt or store bills owed jointly with a spouse or civil union partner as of the last day of the reference period.,2,Assets,Joint Credit Card Debt,Person
+TJSCCDT_MED,Numeric,Median of topcoded values for TJSCCDEBTVAL,0,Assets,Joint Credit Card Debt,Person
+TJSCCDT_STD,Numeric,Standard deviation of topcoded values for TJSCCDEBTVAL,0,Assets,Joint Credit Card Debt,Person
+EJSEDDEBT,Numeric,Owed any money for student loans or educational expenses jointly with a spouse or civil union partner during the reference period.,2,Assets,Joint Educational Debt,Person
+TJSEDDEBTVAL,Numeric,Share of student loans or educational expenses owed jointly with a spouse or civil union partner as of the last day of the reference period.,0,Assets,Joint Educational Debt,Person
+TJSEDDT_MED,Numeric,Median of topcoded values for TJSEDDEBTVAL,0,Assets,Joint Educational Debt,Person
+TJSEDDT_STD,Numeric,Standard deviation of topcoded values for TJSEDDEBTVAL,0,Assets,Joint Educational Debt,Person
+EJOOWNMF,Numeric,Owned any mutual funds jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Mutual Funds and Stocks,Person
+EJOOWNST,Numeric,Owned any stocks jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,1,Assets,Joint Mutual Funds and Stocks,Person
+EJSOWNMF,Numeric,"Owned any mutual funds jointly during the reference period [for respondents with a spouse or civil union partner in the household; this joint ownership question is asked of only one spouse or partner, and this response is copied to both spouses'/partners' records].",1,Assets,Joint Mutual Funds and Stocks,Person
+EJSOWNST,Numeric,"Owned any stocks jointly during the reference period [for respondents with a spouse or civil union partner in the household; this joint ownership question is asked of only one spouse or partner, and this response is copied to both spouses'/partners' records].",1,Assets,Joint Mutual Funds and Stocks,Person
+EOOWNMF,Numeric,Owned any mutual funds individually during the reference period.,1,Assets,Joint Mutual Funds and Stocks,Person
+EOOWNST,Numeric,Owned any stocks individually during the reference period.,1,Assets,Joint Mutual Funds and Stocks,Person
+EJSOTDEBT,Numeric,Owed any money for other debts jointly with a spouse or civil union partner during the reference period.,1,Assets,Joint Other Debt,Person
+TJSOTDEBTVAL,Numeric,Share of other debts owed jointly with a spouse or civil union partner as of the last day of the reference period.,2,Assets,Joint Other Debt,Person
+TJSOTDT_MED,Numeric,Median of topcoded values for TJSOTDEBTVAL,0,Assets,Joint Other Debt,Person
+TJSOTDT_STD,Numeric,Standard deviation of topcoded values for TJSOTDEBTVAL,0,Assets,Joint Other Debt,Person
+EJOOWNRE,Numeric,Owned any other real estate jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Real Estate,Person
+EJSOWNRE,Numeric,Owned any other real estate jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Real Estate,Person
+EOOWNRE,Numeric,Owned any other real estate individually during the reference period.,1,Assets,Joint Real Estate,Person
+EJOOWNRP,Numeric,Owned any rental properties jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Rental Property,Person
+EJSOWNRP,Numeric,Owned any rental properties jointly during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Rental Property,Person
+EOOWNRP,Numeric,Owned any rental properties individually during the reference period.,1,Assets,Joint Rental Property,Person
+TJOGRNC_MED,Numeric,Median of topcoded values for TJORPGROINC,0,Assets,Joint Rental Property,Person
+TJOGRNC_STD,Numeric,Standard deviation of topcoded values for TJORPGROINC,0,Assets,Joint Rental Property,Person
+TJONET_BMED,Numeric,Median of bottomcoded values for TJORPNETINC,0,Assets,Joint Rental Property,Person
+TJONET_BSTD,Numeric,Standard deviation of bottomcoded values for TJORPNETINC,0,Assets,Joint Rental Property,Person
+TJONET_TMED,Numeric,Median of topcoded values for TJORPNETINC,0,Assets,Joint Rental Property,Person
+TJONET_TSTD,Numeric,Standard deviation of topcoded values for TJORPNETINC,0,Assets,Joint Rental Property,Person
+TJORPDEBTVAL,Numeric,Share of total debt against jointly-owned rental property as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Rental Property,Person
+TJORPDT_MED,Numeric,Median of topcoded values for TJORPDEBTVAL,0,Assets,Joint Rental Property,Person
+TJORPDT_STD,Numeric,Standard deviation of topcoded values for TJORPDEBTVAL,0,Assets,Joint Rental Property,Person
+TJORPGROINC,Numeric,Share of total gross income earned over the reference period from jointly-owned rental property [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Rental Property,Person
+TJORPNETINC,Numeric,Share of net income earned over the reference period from jointly-owned rental property [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Rental Property,Person
+TJORPVAL,Numeric,Share of value of jointly-owned rental property as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,2,Assets,Joint Rental Property,Person
+TJORPVL_MED,Numeric,Median of topcoded values for TJORPVAL,0,Assets,Joint Rental Property,Person
+TJORPVL_STD,Numeric,Standard deviation of topcoded values for TJORPVAL,0,Assets,Joint Rental Property,Person
+TJSGRNC_MED,Numeric,Median of topcoded values for TJSRPGROINC,0,Assets,Joint Rental Property,Person
+TJSGRNC_STD,Numeric,Standard deviation of topcoded values for TJSRPGROINC,0,Assets,Joint Rental Property,Person
+TJSNET_BMED,Numeric,Median of bottomcoded values for TJSRPNETINC,0,Assets,Joint Rental Property,Person
+TJSNET_BSTD,Numeric,Standard deviation of bottomcoded values for TJSRPNETINC,0,Assets,Joint Rental Property,Person
+TJSNET_TMED,Numeric,Median of topcoded values for TJSRPNETINC,0,Assets,Joint Rental Property,Person
+TJSNET_TSTD,Numeric,Standard deviation of topcoded values for TJSRPNETINC,0,Assets,Joint Rental Property,Person
+TJSRPDEBTVAL,Numeric,"Share of total debt against jointly-owned rental property as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",0,Assets,Joint Rental Property,Person
+TJSRPDT_MED,Numeric,Median of topcoded values for TJSRPDEBTVAL,0,Assets,Joint Rental Property,Person
+TJSRPDT_STD,Numeric,Standard deviation of topcoded values for TJSRPDEBTVAL,0,Assets,Joint Rental Property,Person
+TJSRPGROINC,Numeric,"Share of total gross income earned over the reference period from jointly-owned rental property [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Joint Rental Property,Person
+TJSRPNETINC,Numeric,"Share of net income earned over the reference period from jointly-owned rental property [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Joint Rental Property,Person
+TJSRPVAL,Numeric,"Share of value of jointly-owned rental property as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",2,Assets,Joint Rental Property,Person
+TJSRPVL_MED,Numeric,Median of topcoded values for TJSRPVAL,0,Assets,Joint Rental Property,Person
+TJSRPVL_STD,Numeric,Standard deviation of topcoded values for TJSRPVAL,0,Assets,Joint Rental Property,Person
+TOGRNC_MED,Numeric,Median of topcoded values for TORPGROINC,0,Assets,Joint Rental Property,Person
+TOGRNC_STD,Numeric,Standard deviation of topcoded values for TORPGROINC,0,Assets,Joint Rental Property,Person
+TONET_BMED,Numeric,Median of bottomcoded values for TORPNETINC,0,Assets,Joint Rental Property,Person
+TONET_BSTD,Numeric,Standard deviation of bottomcoded values for TORPNETINC,0,Assets,Joint Rental Property,Person
+TONET_TMED,Numeric,Median of topcoded values for TORPNETINC,0,Assets,Joint Rental Property,Person
+TONET_TSTD,Numeric,Standard deviation of topcoded values for TORPNETINC,0,Assets,Joint Rental Property,Person
+TORPDEBTVAL,Numeric,Total debt against individually-owned rental property as of the last day of the reference period.,2,Assets,Joint Rental Property,Person
+TORPDT_MED,Numeric,Median of topcoded values for TORPDEBTVAL,0,Assets,Joint Rental Property,Person
+TORPDT_STD,Numeric,Standard deviation of topcoded values for TORPDEBTVAL,0,Assets,Joint Rental Property,Person
+TORPGROINC,Numeric,Total gross income earned over the reference period from individually-owned rental property.,1,Assets,Joint Rental Property,Person
+TORPNETINC,Numeric,Net income earned over the reference period from individually-owned rental property.,1,Assets,Joint Rental Property,Person
+TORPVAL,Numeric,Value of individually-owned rental property as of the last day of the reference period.,1,Assets,Joint Rental Property,Person
+TORPVL_MED,Numeric,Median of topcoded values for TORPVAL,0,Assets,Joint Rental Property,Person
+TORPVL_STD,Numeric,Standard deviation of topcoded values for TORPVAL,0,Assets,Joint Rental Property,Person
+ELIFE_TYPE,Numeric,"Own any 'whole life', 'straight life', or 'universal life' policies",1,Assets,Life Insurance,Person
+TCVAL_MED,Numeric,Median of topcoded values for TLIFE_CVAL (by demographic group),0,Assets,Life Insurance,Person
+TCVAL_STD,Numeric,Standard deviation of topcoded values for TLIFE_CVAL (by demographic group),0,Assets,Life Insurance,Person
+TFVAL_MED,Numeric,Median of topcoded values for TLIFE_FVAL (by demographic group),0,Assets,Life Insurance,Person
+TFVAL_STD,Numeric,Standard deviation of topcoded values for TLIFE_FVAL (by demographic group),0,Assets,Life Insurance,Person
+TLIFE_CVAL,Numeric,Cash value of life insurance policies as of the last day of the reference period.,2,Assets,Life Insurance,Person
+TLIFE_FVAL,Numeric,Face value of life insurance policies as of the last day of the reference period.,2,Assets,Life Insurance,Person
+EMHLOAN1SITE,Numeric,"Composition of the first mortgage or loan against the mobile home [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Mobile Home Loan,Household
+EMHLOAN2SITE,Numeric,"Composition of the second mortgage or loan against the mobile home [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Mobile Home Loan,Household
+TMHLOAN_MED,Numeric,Median of topcoded values for TMHLOANAMT,0,Assets,Mobile Home Loan,Household
+TMHLOAN_STD,Numeric,Standard deviation of topcoded values for TMHLOANAMT,0,Assets,Mobile Home Loan,Household
+EMHDEBT,Numeric,"Whether there were any mortgages or loans against the mobile home as of December of the reference period [such as mortgages, reverse mortgages, installment loans, contracts to purchase, and other debts held against the mobile home; this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Mobile Homes,Household
+TMHLOANAMT,Numeric,"Principal owed on the first three mortgages and loans against the mobile home as of December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Mobile Homes,Household
+TMHLOAN_NUM,Numeric,"Number of mortgages and loans against the mobile home as of December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Mobile Homes,Household
+TMHVAL,Numeric,"Value of mobile home owned as primary residence as of December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Mobile Homes,Household
+TMHVAL_MED,Numeric,Median of topcoded values for TMHVAL,0,Assets,Mobile Homes,Household
+TMHVAL_STD,Numeric,Standard deviation of topcoded values for TMHVAL,0,Assets,Mobile Homes,Household
+EOOTDEBT,Numeric,Owed any money for other debts in own name only during the reference period.,2,Assets,Other Debt - Self,Person
+TOOTDEBTVAL,Numeric,Amount of other debts owed in own name only as of the last day of the reference period.,2,Assets,Other Debt - Self,Person
+TOOTDT_MED,Numeric,Median of topcoded values for TOOTDEBTVAL (by demographic group),0,Assets,Other Debt - Self,Person
+TOOTDT_STD,Numeric,Standard deviation of topcoded values for TOOTDEBTVAL (by demographic group),0,Assets,Other Debt - Self,Person
+EPRDEBT,Numeric,"Whether there were any mortgages or loans against the primary residence as of December of the reference period [that is not a mobile home; such as mortgages, reverse mortgages, home equity loans, and other debt held against the home; this is household-level data, therefore this value is copied to every member of the household].",1,Assets,Property,Household
+TPRLOAN_NUM,Numeric,"Number of mortgages or loans against the primary residence as of December of the reference period [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",2,Assets,Property,Household
+TPRVAL,Numeric,"Property value of primary residence as of December of the reference period [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",1,Assets,Property,Household
+TPRVAL_MED,Numeric,Median of topcoded values for TPRVAL (by demographic group),0,Assets,Property,Household
+TPRVAL_STD,Numeric,Standard deviation of topcoded values for TPRVAL (by demographic group),0,Assets,Property,Household
+TRENTMORT,Numeric,"Amount the household paid for rent or mortgage in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",1,Assets,Property,Household
+TRNTMT_MED,Numeric,Median of topcoded values for TRENTMORT (by demographic group),0,Assets,Property,Household
+TRNTMT_STD,Numeric,Standard deviation of topcoded values for TRENTMORT (by demographic group),0,Assets,Property,Household
+EPRLOAN1FXVR,Numeric,"Type of interest rate of the first mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",2,Assets,Property Loan,Household
+EPRLOAN1RATE,Numeric,"Annual interest rate of the first mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",2,Assets,Property Loan,Household
+EPRLOAN1TYPE,Numeric,"Type of mortgage of the first mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",2,Assets,Property Loan,Household
+EPRLOAN2FXVR,Numeric,"Type of interest rate of the second mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Property Loan,Household
+EPRLOAN2RATE,Numeric,"Annual interest rate of the second mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Property Loan,Household
+EPRLOAN2TYPE,Numeric,"Type of mortgage of the second mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Property Loan,Household
+TPRLOAN1YRS,Numeric,"Total number of years over which payments are to be made on the first mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",2,Assets,Property Loan,Household
+TPRLOAN2YRS,Numeric,"Total number of years over which payments are to be made on the second mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Property Loan,Household
+TPRLOANAMT,Numeric,"Principal owed on the first three mortgages and loans against the primary residence as of December of the reference period [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household].",2,Assets,Property Loan,Household
+TPRLOAN_MED,Numeric,Median of topcoded values for TPRLOANAMT,0,Assets,Property Loan,Household
+TPRLOAN_STD,Numeric,Standard deviation of topcoded values for TPRLOANAMT,0,Assets,Property Loan,Household
+EBOATDEBT,Numeric,"Whether any money was owed on the boat as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+EBOATOWNER1,Numeric,"Person number of the first owner of the boat as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+EBOATOWNER2,Numeric,"Person number of the second owner of the boat as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+EMCYCDEBT,Numeric,"Whether any money was owed on the motorcycle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+EMCYCOWNER1,Numeric,"Person number of the first owner of the motorcycle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+EMCYCOWNER2,Numeric,"Person number of the second owner of the motorcycle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+EORECDEBT,Numeric,"Whether any money was owed on the other recreational vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+EORECOWNER1,Numeric,"Person number of the first owner of the other recreational vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+EORECOWNER2,Numeric,"Person number of the second owner of the other recreational vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+EORECOWNER3,Numeric,"Person number of the third owner of the other recreational vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+EOWN_RECV,Numeric,"Whether any member of the household owned a motorcycle, boat, RV, or other recreational vehicle during the reference period [this is household-level data, therefore this value is copied to every member of the household].",1,Assets,Recreational Vehicles,Household
+EREC_BOAT,Numeric,"Ownership of a boat by anyone in the household during the reference period [this is household-level data, therefore this value is copied to every member of the household].",1,Assets,Recreational Vehicles,Household
+EREC_MCYC,Numeric,"Ownership of a motorcycle by anyone in the household during the reference period [this is household-level data, therefore this value is copied to every member of the household].",1,Assets,Recreational Vehicles,Household
+EREC_OREC,Numeric,"Ownership of any other recreational vehicle by anyone in the household during the reference period [this is household-level data, therefore this value is copied to every member of the household].",1,Assets,Recreational Vehicles,Household
+EREC_RV,Numeric,"Ownership of a RV by anyone in the household during the reference period [this is household-level data, therefore this value is copied to every member of the household].",1,Assets,Recreational Vehicles,Household
+ERVDEBT,Numeric,"Whether any money was owed on the RV as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+ERVOWNER1,Numeric,"Person number of the first owner of the RV as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+ERVOWNER2,Numeric,"Person number of the second owner of the RV as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+TBOATDEBTVAL,Numeric,"Amount owed on the boat as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+TBOATDT_MED,Numeric,Median of topcoded values for TBOATDEBTVAL,0,Assets,Recreational Vehicles,Household
+TBOATDT_STD,Numeric,Standard deviation of topcoded values for TBOATDEBTVAL,0,Assets,Recreational Vehicles,Household
+TBOATVAL,Numeric,"Value of the boat as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+TBOATVL_MED,Numeric,Median of topcoded values for TBOATVAL,0,Assets,Recreational Vehicles,Household
+TBOATVL_STD,Numeric,Standard deviation of topcoded values for TBOATVAL,0,Assets,Recreational Vehicles,Household
+TMCYCDEBTVAL,Numeric,"Amount owed on the motorcycle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+TMCYCDT_MED,Numeric,Median of topcoded values for TMCYCDEBTVAL,0,Assets,Recreational Vehicles,Household
+TMCYCDT_STD,Numeric,Standard deviation of topcoded values for TMCYCDEBTVAL,0,Assets,Recreational Vehicles,Household
+TMCYCVAL,Numeric,"Value of the motorcycle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+TMCYCVL_MED,Numeric,Median of topcoded values for TMCYCVAL,0,Assets,Recreational Vehicles,Household
+TMCYCVL_STD,Numeric,Standard deviation of topcoded values for TMCYCVAL,0,Assets,Recreational Vehicles,Household
+TORECDEBTVAL,Numeric,"Amount owed on the other recreational vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+TORECVAL,Numeric,"Value of the other recreational vehicle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+TRECDT_MED,Numeric,Median of topcoded values for TORECDEBTVAL,0,Assets,Recreational Vehicles,Household
+TRECDT_STD,Numeric,Standard deviation of topcoded values for TORECDEBTVAL,0,Assets,Recreational Vehicles,Household
+TRECVL_MED,Numeric,Median of topcoded values for TORECVAL,0,Assets,Recreational Vehicles,Household
+TRECVL_STD,Numeric,Standard deviation of topcoded values for TORECVAL,0,Assets,Recreational Vehicles,Household
+TRVDEBTVAL,Numeric,"Amount owed on the RV as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+TRVDT_MED,Numeric,Median of topcoded values for TRVDEBTVAL,0,Assets,Recreational Vehicles,Household
+TRVDT_STD,Numeric,Standard deviation of topcoded values for TRVDEBTVAL,0,Assets,Recreational Vehicles,Household
+TRVVAL,Numeric,"Value of the RV as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Recreational Vehicles,Household
+TRVVL_MED,Numeric,Median of topcoded values for TRVVAL,0,Assets,Recreational Vehicles,Household
+TRVVL_STD,Numeric,Standard deviation of topcoded values for TRVVAL,0,Assets,Recreational Vehicles,Household
+EJOMFINCTYPE,Numeric,Type of dividends received from jointly-owned mutual funds during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,0,Assets,Stocks and Mutual Funds,Person
+EJOSTINCTYPE,Numeric,Type of dividends received from jointly-owned stocks during the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,0,Assets,Stocks and Mutual Funds,Person
+EJSMFINCTYPE,Numeric,Type of dividends received from jointly-owned mutual funds during the reference period [for respondents with a spouse or civil union partner in the household].,0,Assets,Stocks and Mutual Funds,Person
+EJSSTINCTYPE,Numeric,Type of dividends received from jointly-owned stocks during the reference period [for respondents with a spouse or civil union partner in the household].,0,Assets,Stocks and Mutual Funds,Person
+EOMFINCTYPE,Numeric,Type of dividends received from individually-owned mutual funds during the reference period.,0,Assets,Stocks and Mutual Funds,Person
+EOSTINCTYPE,Numeric,Type of dividends received from individually-owned stocks during the reference period.,0,Assets,Stocks and Mutual Funds,Person
+TJOMFINC,Numeric,Share of dividend income earned over the reference period from jointly-owned mutual funds [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,0,Assets,Stocks and Mutual Funds,Person
+TJOMFNC_MED,Numeric,Median of topcoded values for TJOMFINC,0,Assets,Stocks and Mutual Funds,Person
+TJOMFNC_STD,Numeric,Standard deviation of topcoded values for TJOMFINC,0,Assets,Stocks and Mutual Funds,Person
+TJOMFVAL,Numeric,Share of value of jointly-owned mutual funds as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,0,Assets,Stocks and Mutual Funds,Person
+TJOMFVL_MED,Numeric,Median of topcoded values for TJOMFVAL,0,Assets,Stocks and Mutual Funds,Person
+TJOMFVL_STD,Numeric,Standard deviation of topcoded values for TJOMFVAL,0,Assets,Stocks and Mutual Funds,Person
+TJOSTINC,Numeric,Share of dividend income earned over the reference period from jointly-owned stocks [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,0,Assets,Stocks and Mutual Funds,Person
+TJOSTNC_MED,Numeric,Median of topcoded values for TJOSTINC,0,Assets,Stocks and Mutual Funds,Person
+TJOSTNC_STD,Numeric,Standard deviation of topcoded values for TJOSTINC,0,Assets,Stocks and Mutual Funds,Person
+TJOSTVAL,Numeric,Share of value of jointly-owned stocks as of the last day of the reference period [for respondents without a spouse in the household either at the end of the reference period or at the time of interview or without a civil union partner in the household at the end of the reference period].,0,Assets,Stocks and Mutual Funds,Person
+TJOSTVL_MED,Numeric,Median of topcoded values for TJOSTVAL,0,Assets,Stocks and Mutual Funds,Person
+TJOSTVL_STD,Numeric,Standard deviation of topcoded values for TJOSTVAL,0,Assets,Stocks and Mutual Funds,Person
+TJSMFINC,Numeric,"Share of dividend income earned over the reference period from jointly-owned mutual funds [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse/partner, and this response is divided by 2 and copied to both spouses'/partners' records].",0,Assets,Stocks and Mutual Funds,Person
+TJSMFNC_MED,Numeric,Median of topcoded values for TJSMFINC,0,Assets,Stocks and Mutual Funds,Person
+TJSMFNC_STD,Numeric,Standard deviation of topcoded values for TJSMFINC,0,Assets,Stocks and Mutual Funds,Person
+TJSMFVAL,Numeric,"Share of value of jointly-owned mutual funds as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",0,Assets,Stocks and Mutual Funds,Person
+TJSMFVL_MED,Numeric,Median of topcoded values for TJSMFVAL,0,Assets,Stocks and Mutual Funds,Person
+TJSMFVL_STD,Numeric,Standard deviation of topcoded values for TJSMFVAL,0,Assets,Stocks and Mutual Funds,Person
+TJSSTINC,Numeric,"Share of dividend income earned over the reference period from jointly-owned stocks [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse/partner, and this response is divided by 2 and copied to both spouses'/partners' records].",0,Assets,Stocks and Mutual Funds,Person
+TJSSTNC_MED,Numeric,Median of topcoded values for TJSSTINC,0,Assets,Stocks and Mutual Funds,Person
+TJSSTNC_STD,Numeric,Standard deviation of topcoded values for TJSSTINC,0,Assets,Stocks and Mutual Funds,Person
+TJSSTVAL,Numeric,"Share of value of jointly-owned stocks as of the last day of the reference period [for respondents with a spouse or civil union partner in the household; this joint amount question is asked of only one spouse or partner, and this response is divided by 2 and copied to both spouses'/partners' records].",0,Assets,Stocks and Mutual Funds,Person
+TJSSTVL_MED,Numeric,Median of topcoded values for TJSSTVAL,0,Assets,Stocks and Mutual Funds,Person
+TJSSTVL_STD,Numeric,Standard deviation of topcoded values for TJSSTVAL,0,Assets,Stocks and Mutual Funds,Person
+TOMFINC,Numeric,Total dividend income earned over the reference period from individually-owned mutual funds.,0,Assets,Stocks and Mutual Funds,Person
+TOMFNC_MED,Numeric,Median of topcoded values for TOMFINC,0,Assets,Stocks and Mutual Funds,Person
+TOMFNC_STD,Numeric,Standard deviation of topcoded values for TOMFINC,0,Assets,Stocks and Mutual Funds,Person
+TOMFVAL,Numeric,Value of individually-owned mutual funds as of the last day of the reference period.,1,Assets,Stocks and Mutual Funds,Person
+TOMFVL_MED,Numeric,Median of topcoded values for TOMFVAL,0,Assets,Stocks and Mutual Funds,Person
+TOMFVL_STD,Numeric,Standard deviation of topcoded values for TOMFVAL,0,Assets,Stocks and Mutual Funds,Person
+TOSTINC,Numeric,Total dividend income earned over the reference period from individually-owned stocks.,0,Assets,Stocks and Mutual Funds,Person
+TOSTNC_MED,Numeric,Median of topcoded values for TOSTINC,0,Assets,Stocks and Mutual Funds,Person
+TOSTNC_STD,Numeric,Standard deviation of topcoded values for TOSTINC,0,Assets,Stocks and Mutual Funds,Person
+TOSTVAL,Numeric,Value of individually-owned stocks as of the last day of the reference period.,1,Assets,Stocks and Mutual Funds,Person
+TOSTVL_MED,Numeric,Median of topcoded values for TOSTVAL,0,Assets,Stocks and Mutual Funds,Person
+TOSTVL_STD,Numeric,Standard deviation of topcoded values for TOSTVAL,0,Assets,Stocks and Mutual Funds,Person
+EDEBT_CC,Numeric,Owed any money for credit cards or store bills during the reference period.,1,Assets,Unsecured Liabilities,Person
+EDEBT_ED,Numeric,Owed any money for student loans or educational-related expenses during the reference period.,1,Assets,Unsecured Liabilities,Person
+EDEBT_MED,Numeric,Whether any money was owed for medical bill not paid in full during the reference period.,1,Assets,Unsecured Liabilities,Person
+EDEBT_OT,Numeric,"Owed any money for other debts during the reference period [such as medical bills not covered by insurance, loans obtained through a bank or credit union, money owed to private individuals, debt held against mutual funds or stocks].",1,Assets,Unsecured Liabilities,Person
+TDEBT_CC,Numeric,"Person-level sum of amount owed on credit card debt and store bills (TJSCCDEBTVAL, TOCCDEBTVAL)",2,Assets,Unsecured Liabilities,Person
+TDEBT_ED,Numeric,Person-level sum of value of educational debt (TJSEDDEBTVAL TOEDDEBTVAL),2,Assets,Unsecured Liabilities,Person
+TDEBT_OT,Numeric,"Person-level sum of amount owed on other debt (TJSOTDEBTVAL, TOOTDEBTVAL)",2,Assets,Unsecured Liabilities,Person
+TMED_AMT,Numeric,Whether any money was owed for medical bills not paid in full during the reference period.,2,Assets,Unsecured Liabilities,Person
+TMED_AMT_MED,Numeric,Median of topcoded values for TMED_AMT (by demographic group),0,Assets,Unsecured Liabilities,Person
+TMED_AMT_STD,Numeric,Standard deviation of topcoded values for TMED_AMT (by demographic group),0,Assets,Unsecured Liabilities,Person
+ERMU_PAYER1,Numeric,"Person number of the first household member who paid for basic utilities and/or mortgage or rent in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",2,Assets,Utilities,Household
+ERMU_PAYER2,Numeric,"Person number of the second household member who paid for basic utilities and/or mortgage or rent in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Utilities,Household
+ERMU_PAYER3,Numeric,"Person number of the third household member who paid for basic utilities and/or mortgage or rent in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Utilities,Household
+TRMU_AMT1,Numeric,"Amount paid by the first household member who paid for basic utilities and/or mortgage or rent in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Utilities,Household
+TRMU_AMT2,Numeric,"Amount paid by the second household member who paid for basic utilities and/or mortgage or rent in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Utilities,Household
+TRMU_AMT3,Numeric,"Amount paid by the third household member who paid for basic utilities and/or mortgage or rent in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",0,Assets,Utilities,Household
+TUTILS,Numeric,"Amount the household paid for basic utilities in December of the reference period [this is household-level data, therefore this value is copied to every member of the household].",1,Assets,Utilities,Household
+TUTILS_MED,Numeric,Median of topcoded values for TUTILS (by demographic group),0,Assets,Utilities,Household
+TUTILS_STD,Numeric,Standard deviation of topcoded values for TUTILS (by demographic group),0,Assets,Utilities,Household
+RFAMNUM,Numeric,Monthly family number for individuals in households,0,Demographics,Demographics Recodes,Person
+RFAMNUMWT2,Numeric,Monthly family number for individuals in households (with Type 2 persons),0,Demographics,Demographics Recodes,Person
+TAGE_EHC,Numeric,Monthly age during the reference year.,0,Demographics,Age,Person-month
+RFAMREF,Numeric,Person number of the family reference person,0,Demographics,Demographics Recodes,Person-month
+EAF_HHLD,Numeric,Did anyone in this household ever serve on active duty in the U.S. Armed Forces?,0,Demographics,Demographics,Household
+RFAMREFWT2,Numeric,Person number of the family reference person (with Type 2 persons),0,Demographics,Demographics Recodes,Person-month
+EDOB_BMONTH,Numeric,Month of birth,1,Demographics,Age,Person
+TAGE,Numeric,Age as of last birthday,1,Demographics,Age,Person
+RCHTYP1,Numeric,Way child is related to respondent,0,Demographics,Demographics Recodes,Person
+RCHTYP10,Numeric,Way child is related to respondent,0,Demographics,Demographics Recodes,Person
+RCHTYP2,Numeric,Way child is related to respondent,0,Demographics,Demographics Recodes,Person
+RCHTYP3,Numeric,Way child is related to respondent,0,Demographics,Demographics Recodes,Person
+RCHTYP4,Numeric,Way child is related to respondent,0,Demographics,Demographics Recodes,Person
+RCHTYP5,Numeric,Way child is related to respondent,0,Demographics,Demographics Recodes,Person
+RCHTYP6,Numeric,Way child is related to respondent,0,Demographics,Demographics Recodes,Person
+RCHTYP7,Numeric,Way child is related to respondent,0,Demographics,Demographics Recodes,Person
+RCHTYP8,Numeric,Way child is related to respondent,0,Demographics,Demographics Recodes,Person
+RCHTYP9,Numeric,Way child is related to respondent,0,Demographics,Demographics Recodes,Person
+ESPEAK,Numeric,Does ... speak a language other than English at home?,1,Demographics,Demographics,Person
+RFAMKINDWT2,Numeric,Kind of family (with Type 2 persons),0,Demographics,Demographics Recodes,Person
+RAFEVER,Numeric,Did this person ever serve on active duty in the U.S. Armed Forces?,1,Demographics,Demographics,Person
+RANY5,Numeric,Indicator of children under the age of 5 at any month during the reference period,1,Demographics,Demographics Recodes,Person
+RFAMKIND,Numeric,Kind of family,1,Demographics,Demographics Recodes,Person-month
+RFPERSONS,Numeric,Number of persons in family,1,Demographics,Demographics Recodes,Person
+RFPERSONSWT2,Numeric,Number of persons in family (with Type 2 persons),1,Demographics,Demographics Recodes,Person
+RFRELU18,Numeric,Number of persons in family under 18 years,1,Demographics,Demographics Recodes,Person
+RFRELU18WT2,Numeric,Number of persons in family under 18 years (with Type 2 persons),1,Demographics,Demographics Recodes,Person
+RHNUM65OVER,Numeric,Number of persons in household 65 years and over this month,1,Demographics,Demographics Recodes,Person
+RHNUM65OVRT2,Numeric,Number of persons in household 65 years and over this month (with Type 2 persons),1,Demographics,Demographics Recodes,Person
+RLNGISOL,Numeric,"Recode indicating if respondent lives in a limited English-speaking household (a household in which no one 14 and over speaks English or speaks a language other than English at home and speaks English ""Very well"").",1,Demographics,Demographics Recodes,Person
+RHNUMPER,Numeric,Number of persons in household this month,0,Demographics,Demographics Recodes,Person
+RHNUMPERWT2,Numeric,Number of persons in household this month (with Type 2 persons),0,Demographics,Demographics Recodes,Person
+RHNUMU18,Numeric,Number of persons in household under 18 years this month,0,Demographics,Demographics Recodes,Person
+RHNUMU18WT2,Numeric,Number of persons in household under 18 years this month (with Type 2 persons),0,Demographics,Demographics Recodes,Person
+EEDUC,Numeric,What is the highest level of school ... completed or the highest degree received by December of (reference year)?,1,Demographics,Educational Attainment,Person
+RPAR1SEX,Numeric,Parent 1 sex at interview month,0,Demographics,Demographics Recodes,Person
+RPAR1SEX_EHC,Numeric,Parent 1 sex at this month,0,Demographics,Demographics Recodes,Person-month
+RPAR1TYP_EHC,Numeric,Type of relationship to parent 1 at this month,0,Demographics,Demographics Recodes,Person-month
+RPAR2SEX,Numeric,Parent 2 sex at interview month,0,Demographics,Demographics Recodes,Person
+RPAR2SEX_EHC,Numeric,Parent 2 sex at this month,0,Demographics,Demographics Recodes,Person-month
+RPAR2TYP_EHC,Numeric,Type of relationship to parent 2 at this month,0,Demographics,Demographics Recodes,Person-month
+RPNCHILD1,Numeric,Person number of child 1,0,Demographics,Demographics Recodes,Person
+RPNCHILD10,Numeric,Person number of child 10,0,Demographics,Demographics Recodes,Person
+RPNCHILD2,Numeric,Person number of child 2,0,Demographics,Demographics Recodes,Person
+RPNCHILD3,Numeric,Person number of child 3,0,Demographics,Demographics Recodes,Person
+RPNCHILD4,Numeric,Person number of child 4,0,Demographics,Demographics Recodes,Person
+RPNCHILD5,Numeric,Person number of child 5,0,Demographics,Demographics Recodes,Person
+RPNCHILD6,Numeric,Person number of child 6,0,Demographics,Demographics Recodes,Person
+RPNCHILD7,Numeric,Person number of child 7,0,Demographics,Demographics Recodes,Person
+RPNCHILD8,Numeric,Person number of child 8,0,Demographics,Demographics Recodes,Person
+RPNCHILD9,Numeric,Person number of child 9,0,Demographics,Demographics Recodes,Person
+RPNPAR1_EHC,Numeric,Person number of parent 1 at this month,0,Demographics,Demographics Recodes,Person-month
+RPNPAR2_EHC,Numeric,Person number of parent 2 at this month,0,Demographics,Demographics Recodes,Person-month
+RREL1,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL10,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL11,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL12,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL13,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL14,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL15,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL16,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL17,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL2,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL3,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL4,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL5,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL6,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL7,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL8,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL9,Numeric,Monthly household relationship to person,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM1,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM10,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM11,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM12,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM13,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM14,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM15,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM16,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM17,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM2,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM3,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM4,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM5,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM6,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM7,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM8,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+RREL_PNUM9,Numeric,Person number for monthly relationship,0,Demographics,Demographics Recodes,Person-month
+EORIGIN,Numeric,"Is ... Spanish, Hispanic, or Latino?",1,Demographics,Hispanic Origin,Person
+ERELRPE,Numeric,Household relationship (detailed categories),1,Demographics,Household Relationship,Person
+EMS,Numeric,"Is ... currently married, widowed, divorced, separated, or never married?",1,Demographics,Marital Status,Person
+ECITIZEN,Numeric,Is ... a citizen of the United States?,1,Demographics,Nativity and Citizenship,Person
+ENATCIT,Numeric,How did ... become a U.S citizen?,1,Demographics,Nativity and Citizenship,Person
+EPNSPOUSE,Numeric,Person number of spouse,0,Demographics,Marital Status,Person
+TIMSTAT,Numeric,What was ... immigration status when he/she first moved to the United States?,1,Demographics,Nativity and Citizenship,Person
+TYRENTRY,Numeric,When did ... come to live in the U.S.?,1,Demographics,Nativity and Citizenship,Person
+EHOWWELL,Numeric,How well does ... speak English?,1,Demographics,Non-English Speaking,Person
+TLANG1,Numeric,What language does ... speak at home?,1,Demographics,Non-English Speaking,Person
+ERACE,Numeric,What race(s) does ... consider herself/himself to be?,1,Demographics,Race,Person
+TRACE,Numeric,What race(s) does ... consider herself/himself to be? (detailed categories),1,Demographics,Race,Person
+ESEX,Numeric,Sex of this person,1,Demographics,Sex,Person
+EPAR1TYP,Numeric,Type of relationship to parent 1,0,Demographics,Parent Relationship,Person
+EPAR2TYP,Numeric,Type of relationship to parent 2,0,Demographics,Parent Relationship,Person
+EPNPAR1,Numeric,Person number of parent 1,0,Demographics,Parent Relationship,Person
+EPNPAR2,Numeric,Person number of parent 2,0,Demographics,Parent Relationship,Person
+EAF1,Numeric,September 2001 to present,0,Demographics,Period Served in Military,Person
+EAF2,Numeric,August 1990 to August 2001,0,Demographics,Period Served in Military,Person
+EAF3,Numeric,May 1975 to July 1990,0,Demographics,Period Served in Military,Person
+EAF4,Numeric,Vietnam Era,0,Demographics,Period Served in Military,Person
+EAF5,Numeric,February 1955 to July 1964,0,Demographics,Period Served in Military,Person
+EAF6,Numeric,Korean War,0,Demographics,Period Served in Military,Person
+EAF7,Numeric,January 1947 to June 1950,0,Demographics,Period Served in Military,Person
+EAF8,Numeric,World War II,0,Demographics,Period Served in Military,Person
+EAFNOW,Numeric,Is this person currently on active duty in the U.S. Armed Forces?,0,Demographics,Period Served in Military,Person
+TDOB_BYEAR,Numeric,Year of birth,2,Demographics,Age,Person
+TBORNPLACE,Character,Recoded Place of Birth,2,Demographics,Demographics Recodes,Person
+EBORNUS,Numeric,Where was ... born?,2,Demographics,Nativity and Citizenship,Person
