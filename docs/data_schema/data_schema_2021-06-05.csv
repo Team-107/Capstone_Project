@@ -1,0 +1,114 @@
+variable,data_type,description
+eown_st,Numeric,Owned any stocks during the reference period [excluding stock-options].
+eown_st,Numeric,Owned any stocks during the reference period [excluding stock-options].
+eown_thr401,Numeric,"Owned any 401k, 403b, 503b, or Thrift Savings Plan accounts during the reference period."
+eown_thr401,Numeric,"Owned any 401k, 403b, 503b, or Thrift Savings Plan accounts during the reference period."
+tirakeoval,Numeric,Value of IRA and KEOGH accounts as of the last day of the reference period.
+tosavval,Numeric,Value of individually-owned savings accounts as of the last day of the reference period.
+tthr401val,Numeric,"Value of 401k, 403b, 503b, and Thrift Savings Plan accounts as of the last day of the reference period."
+tdebt_ast,Numeric,"Person-level sum of all debt (TDEBT_SEC, TDEBT_USEC)."
+tdebt_ast,Numeric,"Person-level sum of all debt (TDEBT_SEC, TDEBT_USEC)."
+tdebt_bus,Numeric,Person-level sum of debt against businesses in which the person owns a share (TBSI(i)PEROWN/100*TBSI(i)DEBT (for i=1 to 3) + TBSJ(j)PEROWN/100*TBSJ(j)DEBT (for j=1 to 7) ).
+tdebt_bus,Numeric,Person-level sum of debt against businesses in which the person owns a share (TBSI(i)PEROWN/100*TBSI(i)DEBT (for i=1 to 3) + TBSJ(j)PEROWN/100*TBSJ(j)DEBT (for j=1 to 7) ).
+tdebt_home,Numeric,"Person-level sum of debt against primary residence (sum of either TPRLOAN(i)AMT or TMHLOAN(i)AMT for i=1,2,3) in which the person is an owner of the residence. The home's debt is divided equally among its total number of owners."
+tdebt_home,Numeric,"Person-level sum of debt against primary residence (sum of either TPRLOAN(i)AMT or TMHLOAN(i)AMT for i=1,2,3) in which the person is an owner of the residence. The home's debt is divided equally among its total number of owners."
+tdebt_re,Numeric,"Person-level sum of debt against other real estate (TJSREDEBTVAL, TJOREDEBTVAL, TOREDEBTVAL)."
+tdebt_re,Numeric,"Person-level sum of debt against other real estate (TJSREDEBTVAL, TJOREDEBTVAL, TOREDEBTVAL)."
+tdebt_rent,Numeric,"Person-level sum of debt against rental properties (TJSRPDEBTVAL, TJORPDEBTVAL, TORPDEBTVAL)."
+tdebt_rent,Numeric,"Person-level sum of debt against rental properties (TJSRPDEBTVAL, TJORPDEBTVAL, TORPDEBTVAL)."
+tdebt_sec,Numeric,"Person-level sum of all secured debt (TDEBT_HOME, TDEBT_VEH, TDEBT_RENT, TDEBT_RE, TDEBT_BUS)."
+tdebt_sec,Numeric,"Person-level sum of all secured debt (TDEBT_HOME, TDEBT_VEH, TDEBT_RENT, TDEBT_RE, TDEBT_BUS)."
+tdebt_usec,Numeric,"Person-level sum of value of amount owed on all unsecured debt (TDEBT_CC, TDEBT_ED, TDEBT_OT, TMED_AMT)"
+tdebt_usec,Numeric,"Person-level sum of value of amount owed on all unsecured debt (TDEBT_CC, TDEBT_ED, TDEBT_OT)"
+tdebt_veh,Numeric,"Person-level sum of debt against all vehicles in which the person owns a share (as indicated by the variables EVEH(i)OWNER(j) for i=1,2,3 and j=1,2,3 and E(AST)OWNER(j) for AST=MCYC, BOAT, RV, OREC and j=1,2,3). Each vehicle's debt value (TVEH(i)DEBTVAL for i=1,2,3 and T(AST)DEBTVAL for AST=MCYC, BOAT, RV, OREC) is divided equally among its total number of owners."
+tdebt_veh,Numeric,"Person-level sum of debt against all vehicles in which the person owns a share (as indicated by the variables EVEH(i)OWNER(j) for i=1,2,3 and j=1,2,3 and E(AST)OWNER(j) for AST=MCYC, BOAT, RV, OREC and j=1,2,3). Each vehicle's debt value ( TVEH(i)DEBTVAL for i=1,2,3 and T(AST)DEBTVAL for AST=MCYC, BOAT, RV, OREC) is divided equally among its total number of owners."
+tbsi1debtval,Numeric,Amount of debt against the first business owned as an investment only as of the end of the reference period.
+tbsi1debtval,Numeric,Amount of debt against the first business owned as an investment only as of the end of the reference period.
+ejsccdebt,Numeric,Owed any money for credit cards or store bills jointly with a spouse or civil union partner during the reference period.
+ejsccdebt,Numeric,Owed any money for credit cards or store bills jointly with a spouse or civil union partner during the reference period.
+ejseddebt,Numeric,Owed any money for student loans or educational expenses jointly with a spouse or civil union partner during the reference period.
+ejseddebt,Numeric,Owed any money for student loans or educational expenses jointly with a spouse or civil union partner during the reference period.
+ejsotdebt,Numeric,Owed any money for other debts jointly with a spouse or civil union partner during the reference period.
+ejsotdebt,Numeric,Owed any money for other debts jointly with a spouse or civil union partner during the reference period.
+emhloan1site,Numeric,"Composition of the first mortgage or loan against the mobile home [this is household-level data, therefore this value is copied to every member of the household]."
+emhloan1site,Numeric,"Composition of the first mortgage or loan against the mobile home [this is household-level data, therefore this value is copied to every member of the household]."
+eprdebt,Numeric,"Whether there were any mortgages or loans against the primary residence as of December of the reference period [that is not a mobile home; such as mortgages, reverse mortgages, home equity loans, and other debt held against the home; this is household-level data, therefore this value is copied to every member of the household]."
+eprdebt,Numeric,"Whether there were any mortgages or loans against the primary residence as of December of the reference year [that is not a mobile home; such as mortgages, reverse mortgages, home equity loans, and other debt held against the home; this is household-level data, therefore this value is copied to every member of the household]."
+eprloan1fxvr,Numeric,"Type of interest rate of the first mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household]."
+eprloan1fxvr,Numeric,"Type of interest rate of the first mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household]."
+eprloan1rate,Numeric,"Annual interest rate of the first mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household]."
+eprloan1rate,Numeric,"Annual interest rate of the first mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household]."
+eprloan1type,Numeric,"Type of mortgage of the first mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household]."
+eprloan1type,Numeric,"Type of mortgage of the first mortgage or loan against the primary residence [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household]."
+tprloanamt,Numeric,"Principal owed on the first three mortgages and loans against the primary residence as of December of the reference period [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household]."
+tprloanamt,Numeric,"Principal owed on the first three mortgages and loans against the primary residence as of December of the reference year [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household]."
+tprloanamt,Numeric,"Principal owed on the first three mortgages and loans against the primary residence as of December of the reference year [that is not a mobile home; this is household-level data, therefore this value is copied to every member of the household]."
+eboatdebt,Numeric,"Whether any money was owed on the boat as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+eboatdebt,Numeric,"Whether any money was owned on the boat as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+emcycdebt,Numeric,"Whether any money was owed on the motorcycle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+emcycdebt,Numeric,"Whether any money was owned on the motorcycle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+erec_boat,Numeric,"Ownership of a boat by anyone in the household during the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+ervdebt,Numeric,"Whether any money was owed on the RV as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+ervdebt,Numeric,"Whether any money was owned on the RV as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+tboatdebtval,Numeric,"Amount owed on the boat as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+tboatval,Numeric,"Value of the boat as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+tmcycdebtval,Numeric,"Amount owed on the motorcycle as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+trvdebtval,Numeric,"Amount owed on the RV as of the last day of the reference period [this is household-level data, therefore this value is copied to every member of the household]."
+edebt_cc,Numeric,Owed any money for credit cards or store bills during the reference period.
+edebt_cc,Numeric,Owed any money for credit cards or store bills during the reference period.
+edebt_ed,Numeric,Owed any money for student loans or educational-related expenses during the reference period.
+edebt_ed,Numeric,Owed any money for student loans or educational-related expenses during the reference period.
+edebt_med,Numeric,Whether any money was owed for medical bill not paid in full during the reference period.
+tdebt_cc,Numeric,"Person-level sum of amount owed on credit card debt and store bills (TJSCCDEBTVAL, TOCCDEBTVAL)"
+tdebt_cc,Numeric,"Person-level sum of amount owed on credit card debt and store bills (TJSCCDEBTVAL, TOCCDEBTVAL)"
+tdebt_ed,Numeric,Person-level sum of value of educational debt (TJSEDDEBTVAL TOEDDEBTVAL)
+tdebt_ed,Numeric,Person-level sum of value of educational debt (TJSEDDEBTVAL TOEDDEBTVAL)
+tdebt_ot,Numeric,"Person-level sum of amount owed on other debt (TJSOTDEBTVAL, TOOTDEBTVAL)"
+tdebt_ot,Numeric,"Person-level sum of amount owed on other debt (TJSOTDEBTVAL, TOOTDEBTVAL)"
+etenure,Numeric,"Are ... living quarters owned, rented, or occupied without payment of rent?"
+etenure,Numeric,"Are ... living quarters owned, rented, or occupied without payment of rent?"
+tlivqtr,Numeric,Type of living quarters.
+tage,Numeric,Age as of last birthday
+tage,Numeric,Age as of last birthday
+espeak,Numeric,Does ... speak a language other than English at home?
+rfamkind,Numeric,Kind of family
+rfamkind,Numeric,Kind of family
+rfamkind,Numeric,Kind of family
+rlngisol,Numeric,"Recode indicating if respondent lives in a limited English-speaking household (a household in which no one 14 and over speaks English or speaks a language other than English at home and speaks English ""Very well"")."
+rlngisol,Numeric,"Recode indicating if respondent lives in a limited English-speaking household (a household in which no one 14 and over speaks English or speaks a language other than English at home and speaks English ""Very well"")."
+eeduc,Numeric,What is the highest level of school ... completed or the highest degree received by December of (reference year)?
+eorigin,Numeric,"Is ... Spanish, Hispanic, or Latino?"
+eorigin,Numeric,"Is ... Spanish, Hispanic, or Latino?"
+erelrpe,Numeric,Household relationship (detailed categories)
+ems,Numeric,"Is ... currently married, widowed, divorced, separated, or never married?"
+ebornus,Numeric,Where was ... born?
+ecitizen,Numeric,Is ... a citizen of the United States?
+ehowwell,Numeric,How well does ... speak English?
+tlang1,Numeric,What language does ... speak at home?
+trace,Numeric,What race(s) does ... consider herself/himself to be? (detailed categories)
+trace,Numeric,What race(s) does ... consider herself/himself to be? (detailed categories) Multi-race individuals are included in ERACE as well as TRACE.
+esex,Numeric,Sex of this person
+esex,Numeric,Sex of this person
+spanel,Numeric,Panel year
+spanel,Numeric,Panel year
+ssuid,Character,"Sample unit identifier. This identifier is created by scrambling together PSU, Sequence #1, Sequence #2, and the Frame Indicator for a case. It may be used in matching sample units from different waves."
+ssuid,Character,"Sample unit identifier. This identifier is created by scrambling together PSU, Sequence #1, Sequence #2, and the Frame Indicator for a case. It may be used in matching sample units from different waves."
+swave,Numeric,Wave number of interview
+pnum,Numeric,Person number
+monthcode,Numeric,Value of reference month
+wpfinwgt,Numeric,Final person weight
+eresidenceid,Character,This field stores a unique six-digit identifier for residence addresses.
+eresidenceid,Character,This field stores a unique six-digit identifier for residence addresses.
+eresidenceid,Character,Processing-created residence id
+rin_univ,Numeric,Monthly indicator that respondent is in survey frame universe
+tptotinc,Numeric,"Sum of personal monthly earnings and income for people age 15 and older, as well as children under age 15 who received SSI payments"
+tptotinc,Numeric,The sum of reported monthly earnings and income amounts received by an individual during the reference year.
+tptrninc,Numeric,"Sum of monthly income received from means-tested transfer programs (including SSI, TANF, GA, and the Veterans Pension program)"
+tptrninc,Numeric,"The sum of the reported monthly amounts received by an individual from TANF, SSI, General Assistance, or general relief"
+tptrninc,Numeric,"The sum of the reported monthly amounts received by an individual from TANF, SSI, Pass-through child support payments, General Assistance, or general relief"
+rtanf_mnyn,Numeric,Received TANF benefits this month
+tehc_region,Numeric,Monthly region of residence
+tehc_region,Numeric,Monthly region of residence
+eresidenceid,Character,This field stores a unique six-digit identifier for residence addresses.
+eresidenceid,Character,This field stores a unique six-digit identifier for residence addresses.
+eresidenceid,Character,Processing-created residence id
